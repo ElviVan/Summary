@@ -1,0 +1,118 @@
+.bodyContainer{
+    height: 64vh;
+    display: flex;
+    justify-content: space-between;
+    /* outline: 2px solid black; */
+}
+
+.animateBlock{
+    width: 80%;
+    background: #f36273;
+    /* outline: 2px solid black; */
+}
+
+.description{
+    width: 100%;
+    background: #f7e293;
+    
+}
+
+.themes{
+    height: 40%;
+    padding: 10px 20px;
+}
+
+
+.iconSkills{
+    /* height: 40%; */
+    outline: 2px solid black;
+    padding: 10px 20px;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.skills div{
+    width: 120px;
+    height: 60px;
+    outline: 1px solid seagreen;
+    margin: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    background-color: rgb(246, 246, 246);
+}
+
+.skills div:nth-child(1){
+    color: rgb(218, 88, 29);
+}
+.skills div:nth-child(2){
+    color: rgb(74, 46, 230);
+}
+.skills div:nth-child(3){
+    color: rgb(207, 188, 12);
+}
+.skills div:nth-child(4){
+    color: rgb(94, 70, 233);
+}
+.skills div:nth-child(5){
+    color: rgb(86, 105, 214);
+}
+.skills div:nth-child(6){
+    color: rgb(174, 35, 202);
+    font-family: 'Righteous', cursive;
+}
+
+
+.slides{
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: all ease 1s;
+    /* left: 20px; */
+}
+
+.picture-item{
+    width: 250px;
+    height: 100px;
+    margin: 0 20px;
+    transition: all ease 1s;
+    opacity: 0.6;
+}
+
+.picture-front{
+    width: 300px;
+    height: 150px;
+    transition: all ease 1s;
+}
+.picture-back{
+    opacity: 1;
+}
+
+
+
+.slides-dots{
+    display: flex;
+    justify-content: center;
+}
+
+.active-dot{
+    background-color: #fb397d;
+    border-color: transparent;
+}
+
+
+.dots-screen{
+    border-color: rgb(64, 60, 83);
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba;
+    border-radius: 50%;
+    margin: 0 6px;
+    margin-top: 50px;
+}
